@@ -1,6 +1,6 @@
 # Prime number Rest Service
 
-  This rest service returns prime numbers using two different algorithms
+  This rest service returns prime numbers using two different algorithms.
 
 ## Requirements
 
@@ -8,7 +8,7 @@
    
 ## Installation
 
-   This code can be installed by importing the pom.xml run as Spring Boot Application
+   This code can be installed by importing the pom.xml run as Spring Boot Application.
 
 ## Usage
 
