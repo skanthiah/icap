@@ -18,7 +18,7 @@
 	  
 	The following two parameters can be used-
 	  
-	1. limit - The number of prime numbers to be returned. Defaulted to 10. Max limit is set to 1000.
+	1. limit - The number of prime numbers to be returned. Defaulted to 10. Max limit is set to 5000.
 	  	
 	2. algorithm - The algorithm to be used. There are two algorithms - simple and optimised. Defaulted to optimised.
 	  	
