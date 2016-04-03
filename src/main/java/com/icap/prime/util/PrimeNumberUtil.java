@@ -63,17 +63,18 @@ public class PrimeNumberUtil {
 	 * This method returns max number of prime numbers. This method uses Java8 streams and leverages
 	 * multi-threading using parallel function of stream api.
 	 * 
-	 * @param max The number of prime numbers to be returned
+	 * @param limit The number of prime numbers to be returned
 	 * @param predicate The algorithm to be used
 	 * @return List of prime numbers
 	 */
-	public static List<Long> primeSequence(long max, Predicate<Long> predicate) {
-		if (max > 0 && predicate != null)
+	public static List<Long> primeSequence(long limit, Predicate<Long> predicate) {
+		if (limit > 0 && predicate != null)
 			return LongStream
 					.iterate(2, i -> i + 1)
 					.parallel()
 					.filter(x -> predicate.test(x))
-					.limit(max).boxed()
+					.limit(limit)
+					.boxed()
 					.collect(Collectors.toList());
 		else
 			return null;
