@@ -8,7 +8,7 @@
    
 ## Installation
 
-	This code can be installed by importing the pom.xml run as Spring Boot Application.
+	This code can be installed by importing the pom.xml and executed as Spring Boot Application.
 
 ## Usage
 
